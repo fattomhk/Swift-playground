@@ -38,11 +38,13 @@ class C: B{
 
 struct sa {
     static func staticFunction() {}
+    //Compile Error. Class methods are only allowed within classes
     class func classFunction() {}
 }
 
 enum enumExample {
     static var staticVar = "123"
+    //Compile Error. Class methods are only allowed within classes
     class var classVar = "456"
 }
 
