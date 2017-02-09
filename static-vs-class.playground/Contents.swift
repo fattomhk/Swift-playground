@@ -40,3 +40,11 @@ struct sa {
     static func staticFunction() {}
     class func classFunction() {}
 }
+
+enum enumExample {
+    static var staticVar = "123"
+    class var classVar = "456"
+}
+
+
+
